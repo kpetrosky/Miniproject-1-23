@@ -1,51 +1,85 @@
-title {
-    display: block;
-    position: static; top: 40px; left: 100px; right: 50px;
-    color: rgb(255, 0, 149);
-    font-size: 80px;
-    border: 25px solid rgb(150, 6, 163);
-    padding: 20px; 
-    margin: 35px;
-    text-align: center;
-    position: fixed;
+* 
+header {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: #266150; 
 }
-li {
-    color: rgb(34, 0, 128);
-  }
-.center {
-    text-align: center;
-    border: 3px solid green;
-  }
-caption {
-    display: table-caption;
-    text-align: center;
-    color:black
-  }
+
 body {
-    background-color: rgb(114, 204, 200);
-    list-style-type: none;
-    text-align: center; 
-    padding: 20px;
-    margin: 20px;
-    display: block;
-  }
+    position: relative;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 20px;
+    background-color: #fdf5fb;
+    color: #d85632;
+}
+h1,
+h2 {
+    margin: 20px
+}
+main {
+    padding: 60px 0;
+}
+
+header {
+    position:fixed;
+    border-bottom: 10px solid pink;
+}
+a {
+    text-decoration: none;
+    color: aqua;
+}
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-bottom: 10px solid gold;
+    color: #fdf5fb;
+}
 img {
     display: block;
-    margin-left: 500px;
-    margin-right: 500px;
-    margin-bottom: 500px;
-    margin-top: 500px;
-    width: 250px;
-    height: 300px;
-    position: relative;
-    border: 3px solid #73AD21;
-    }
-p {
-  display: inline;
-  width: 100px;
-  height: 100px;
-  padding: 50px;
-  border: 60px blue;
-  background-color: yellow;
-  position: relative;
+    margin: 20px auto;
   }
+  figure {
+    margin-bottom: 40px;
+  }
+  section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 3px solid #9ddd94;
+    background-color:  #50c522;
+  }
+  form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid #ece93b;
+    border-radius: 20px;
+  }
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  button {
+    height: 40px;
+    width: 120px;
+    background-color: #4F4846;
+    color: #FDF8F5;
+  }
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  textarea {
+    vertical-align: top;
+    height: 60px;
+  }
+  input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid #4F4846;
+}
