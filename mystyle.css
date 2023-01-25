@@ -1,5 +1,9 @@
-* 
-header {
+* {
+  margin:0;
+  padding:0;  
+}
+header,
+footer {
     height: 60px;
     width: 100%;
     line-height: 60px;
@@ -11,7 +15,7 @@ body {
     font-family: "Goudy Bookletter 1911", sans-serif;
     font-size: 20px;
     background-color: #fdf5fb;
-    color: #d85632;
+    color: #e612a6;
 }
 h1,
 h2 {
@@ -19,6 +23,11 @@ h2 {
 }
 main {
     padding: 60px 0;
+}
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
 }
 
 header {
@@ -29,12 +38,13 @@ a {
     text-decoration: none;
     color: aqua;
 }
+
 footer {
-    position: absolute;
+    position: relative;
     margin-top: 0;
     bottom: 0;
-    border-bottom: 10px solid gold;
-    color: #fdf5fb;
+    border-bottom: 10px solid rgb(140, 0, 255);
+    color: #b84d9d;
 }
 img {
     display: block;
@@ -46,8 +56,8 @@ img {
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #9ddd94;
-    background-color:  #50c522;
+    border-top: 3px solid #39da89;
+    background-color:  #7cbbd8;
   }
   form {
     margin: 0 auto;
@@ -63,7 +73,7 @@ img {
   button {
     height: 40px;
     width: 120px;
-    background-color: #4F4846;
+    background-color: #2337a5;
     color: #FDF8F5;
   }
   .text-center {
@@ -81,5 +91,5 @@ img {
 textarea {
   box-sizing: border-box;
   width: 300px;
-  border: 1px solid #4F4846;
+  border: 1px solid #85341e;
 }
